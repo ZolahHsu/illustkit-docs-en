@@ -1,0 +1,33 @@
+---
+title:"漸層過渡方式說明：感應式、感知色調、線性色調"
+---
+📌 <code>選單路徑：</code>  
+1. <code>編輯 \> 編輯漸層 \> 感應式漸層 / 感知色調漸層 / 線性色調漸層</code>  
+2. <code>效果 \> IK 漸層 \> 感應式漸層 / 感知色調漸層 / 線性色調漸層</code>
+
+### 功能
+
+新的漸層內差算法，避免顏色在過渡時集中於灰階區域，使漸層看起來更乾淨且保有色彩活性。
+以藍橘漸層為例：
+
+<Steps>
+  <Step title="原始漸層">
+    <img src="/images/tone/grad_demo_orig-grad.png" width="600" />
+  </Step>
+
+  <Step title="感應式漸層">
+    <img src="/images/tone/grad_demo_grad-adpt.png" width="600" />
+  </Step>
+
+  <Step title="感知色調漸層">
+    <img src="/images/tone/grad_demo_grad-perc.png" width="600" />
+  </Step>
+
+  <Step title="線性色調漸層">
+    <img src="/images/tone/grad_demo_grad-linear.png" width="600" />
+  </Step>
+</Steps>
+
+<Warning>
+已知問題：漸層顏色如使用整體色、特別色，套用此功能，會變成黑色
+</Warning>
