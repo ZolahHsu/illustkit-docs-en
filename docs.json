@@ -1,0 +1,175 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "theme": "mint",
+  "name": "IllustKit 技術文件",
+  "colors": {
+    "primary": "#16A34A",
+    "light": "#07C983",
+    "dark": "#15803D"
+  },
+  "favicon": "/favicon.svg",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Guides",
+        "groups": [
+          {
+            "group": "IllustKit",
+            "pages": [
+              {
+                "group": "開始使用 Illustkit",
+                "expanded": false,
+                "pages": [
+                  "IllustKit 介紹",
+                  "quickstart",
+                  "development"
+                ]
+              },
+              {
+                "group": "工具操作",
+                "expanded": false,
+                "pages": [
+                  "essentials/settings",
+                  "essentials/navigation"
+                ]
+              },
+              {
+                "group": "物件與編輯",
+                "expanded": false,
+                "pages": [
+                  {
+                    "group": "縮放調整",
+                    "expanded": false,
+                    "pages": [
+                      "object/scale/等寬縮放",
+                      "object/scale/等高縮放",
+                      "object/scale/依像素尺寸個別縮放",
+                      "object/scale/依短邊尺寸個別縮放"
+                    ]
+                  },
+                  {
+                    "group": "對齊",
+                    "expanded": false,
+                    "pages": [
+                      "object/align/水平居中邊框中心",
+                      "object/align/垂直居中邊框中心"
+                    ]
+                  },
+                  {
+                    "group": "路徑與錨點處理",
+                    "expanded": false,
+                    "pages": [
+                      "object/path/平滑封閉",
+                      "object/path/直線封閉",
+                      "object/path/錨點分割",
+                      "object/path/增強接合",
+                      "object/path/預置把手"
+                    ]
+                  },
+                  {
+                    "group": "遮色片與封套",
+                    "expanded": false,
+                    "pages": [
+                      "object/envelope/從關鍵物件製做",
+                      "object/envelope/從工作區域製作",
+                      "object/envelope/重複剪裁",
+                      "object/envelope/以最上層物件製做封套",
+                      "object/envelope/重複製作封套"
+                    ]
+                  },
+                  {
+                    "group": "工作區域",
+                    "expanded": false,
+                    "pages": [
+                      "object/artboard/從選取的物件邊框新增",
+                      "object/artboard/從選取的物件邊框個別新增"
+                    ]
+                  },
+                  {
+                    "group": "描圖",
+                    "expanded": false,
+                    "pages": [
+                      "object/tracing/多圖描圖",
+                      "object/tracing/多圖描圖並展開"
+                    ]
+                  },
+                  {
+                    "group": "選取",
+                    "expanded": false,
+                    "pages": [
+                      "object/select/路徑文字物件",
+                      "object/select/舊版文字物件",
+                      "object/select/使選取範圍符合視窗"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "色彩與漸層",
+                "expanded": false,
+                "pages": [
+                  {
+                    "group": "色彩調整",
+                    "expanded": false,
+                    "pages": [
+                      "gradient/color/色彩映射",
+                      "gradient/color/淺色歸零",
+                      "gradient/color/倍數近似"
+                    ]
+                  },
+                  {
+                    "group": "漸層色調",
+                    "expanded": false,
+                    "pages": [
+                      "gradient/tone/使用方式說明",
+                      "gradient/tone/漸層過渡方式說明：感應式、感知色調、線性色調"
+                    ]
+                  },
+                  {
+                  "group": "漸層效果",
+                    "expanded": false,
+                    "pages": [
+                      "gradient/effect/漸層使用方式說明",
+                      "gradient/effect/反射漸層",
+                      "gradient/effect/重複漸層",
+                      "gradient/effect/均分色標",
+                      "gradient/effect/條紋漸層",
+                      "gradient/effect/角度漸層",
+                      "gradient/effect/多邊形漸層"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "版本更新與管理",
+                "expanded": false,
+                "pages": [
+                  "update/文件版本",
+                  "update/版本更新紀錄",
+                  "update/相容性與已知問題"
+                ]
+              },
+              {
+                "group": "常見問題與說明",
+                "expanded": false,
+                "pages": [
+                  "faq/常見問題",
+                  "gradient/color/淺色歸零"
+                ]
+              },
+              {
+                "group": "授權與管理",
+                "expanded": false,
+                "pages": [
+                  "gradient/color/色彩映射",
+                  "gradient/color/淺色歸零",
+                  "gradient/color/倍數近似"
+                ]
+              } 
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
